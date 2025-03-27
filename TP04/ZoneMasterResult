@@ -1,0 +1,65 @@
+Module 	Level 	Message 
+Basic 	info 	La zone parente est "ephec-ti.be",  d’après les serveurs de noms "dns110.ovh.net/2001:41d0:1:4a9a::1; dns110.ovh.net/213.251.188.154; ns110.ovh.net/2001:41d0:1:199a::1; ns110.ovh.net/213.251.128.154".
+Basic 	info 	La zone "l2-6.ephec-ti.be" a été trouvée.
+Basic 	info 	Une réponse faisant autorité à une requête de type SOA pour "l2-6.ephec-ti.be" a été renvoyée par les serveurs de noms "ns1.l2-6.ephec-ti.be/54.36.180.56".
+Basic 	info 	Un serveur de noms fonctionnel a été trouvé. Inutile de réaliser une requête de type "A" sur www.l2-6.ephec-ti.be.
+Address 	info 	Toutes les adresses IP des serveurs de noms sont dans l'espace d'adresses publiques routables.
+Address 	info 	Les différentes adresses IP des serveurs de noms ont toutes un enregistrement "PTR" (reverse) associé dans le DNS.
+Address 	notice 	Le serveur de noms ns1.l2-6.ephec-ti.be a une adresse IP (54.36.180.56) qui ne correspond pas aux enregistrements "PTR" retournés (vps-bd8af0c2.vps.ovh.net.) pour celle-ci.
+Connectivity 	warning 	Toutes les adresses IPv4 des serveurs faisant autorité se trouvent dans le même AS (16276).
+Connectivity 	info 	Les serveurs de noms suivants sont annoncés dans des préfixes IPv4 distincts : "ns1.l2-6.ephec-ti.be/54.36.180.56"
+Connectivity 	warning 	Toutes les adresses IPv4 des serveurs de noms sont annoncés dans le même préfixe IPv4.
+Consistency 	info 	Le numéro de série 2024031805 a été récupérée sur les serveurs suivants : ns1.l2-6.ephec-ti.be/54.36.180.56.
+Consistency 	info 	Un unique numéro de série a été trouvé dans les enregistrements de type "SOA" de la zone testée (2024031805).
+Consistency 	info 	Une unique adresse mail a été trouvée dans les enregistrements de type "SOA" de la zone testée (admin.l2-6.ephec-ti.be.).
+Consistency 	info 	Un unique ensemble de paramètres temporels a été trouvé (REFRESH=3600, RETRY=1800, EXPIRE=604800, MINIMUM=86400).
+Consistency 	info 	Un unique ensemble de serveurs de noms est configuré sur les serveurs de la zone testée (ns1.l2-6.ephec-ti.be.).
+Consistency 	info 	La liste des adresses IP des serveurs de noms retournée par les serveurs de noms de la zone parente et par ceux de la zone est identique.
+Consistency 	info 	Un unique serveur maître a été trouvé dans les enregistrements de type "SOA" de la zone testée (ns1.l2-6.ephec-ti.be.).
+DNSSEC 	warning 	Le serveur de noms 54.36.180.56 retourne un enregistrement de type "DNSKEY" pour la zone fille,  mais le serveur de noms 2001:41d0:1:4a9a::1 ne retourne aucun enregistrement de type "DS" pour la zone parente.
+DNSSEC 	info 	La zone n'utilise pas NSEC3. Le test de NSEC3 n'a pas été effectué. Information retournée par les serveurs de noms "ns1.l2-6.ephec-ti.be/54.36.180.56".
+DNSSEC 	info 	La signature (RRSIG) avec la champ keytag 41632 et couvrant les enregistrements de type(s) "DNSKEY" expire à la date suivante : Wed Apr  9 16:24:59 2025.
+DNSSEC 	info 	La signature (RRSIG) avec la champ keytag 41632 et couvrant les enregistrements de type(s) "SOA" expire à la date suivante : Wed Apr  9 16:24:59 2025.
+DNSSEC 	info 	La clé (DNSKEY) avec le tag 41632 utilise un numéro d'algorithme correct 13/(ECDSA Curve P-256 with SHA-256).
+DNSSEC 	info 	La zone contient des enregistrements de type "NSEC". Information retournée par les serveurs de noms "ns1.l2-6.ephec-ti.be/54.36.180.56".
+DNSSEC 	info 	Les serveurs de noms ayant une des adresses IP suivantes "54.36.180.56" retournent un ensemble d'enregistrements de type "CDNSKEY" et de type "CDS".
+Delegation 	error 	Les serveurs de noms de la zone parente ne retournent pas assez de serveurs (1) faisant autorité. La limite inférieure étant fixée à 2. Serveurs de noms : ns1.l2-6.ephec-ti.be
+Delegation 	error 	Les serveurs de noms de la zone ne retournent pas assez de serveurs (1) faisant autorité. La limite inférieure étant fixée à 2. Serveurs de noms : ns1.l2-6.ephec-ti.be
+Delegation 	error 	Les serveurs de noms de la zone ne retournent pas assez de serveurs (1) faisant autorité ayant une adresse IPv4. La limite inférieure étant fixée à 2. Serveurs de noms : ns1.l2-6.ephec-ti.be/54.36.180.56
+Delegation 	notice 	Les serveurs de noms de la zone ne retournent pas de serveurs ayant une adresse IPv6. Si il y en avait,  il en faudrait au minimum 2.
+Delegation 	error 	Les serveurs de noms de la zone parente ne retournent pas assez de serveurs (1) faisant autorité ayant une adresse IPv4. La limite inférieure étant fixée à 2. Serveurs de noms : ns1.l2-6.ephec-ti.be/54.36.180.56
+Delegation 	notice 	Les serveurs de noms de la zone parente ne retournent pas de serveurs ayant une adresse IPv6. Si il y en avait,  il en faudrait au minimum 2.
+Delegation 	info 	Sur les serveurs de noms de la zone parente,  toutes les adresses IP utilisées par les serveurs de noms sont uniques.
+Delegation 	info 	Sur les serveurs de noms de la zone,  toutes les adresses IP utilisées par les serveurs de noms sont uniques.
+Delegation 	info 	Toutes les adresses IP utilisées par les serveurs de noms sont uniques.
+Delegation 	info 	La plus petite taille d'un paquet légal contenant une référence (referral) est inférieure à 513 octets (elle est de 305).
+Delegation 	info 	Ces serveurs de noms ont pu être vérifiés comme faisant autorité : ns1.l2-6.ephec-ti.be.
+Delegation 	info 	Aucun serveur de noms ne pointe sur un alias (CNAME).
+Delegation 	info 	Tous les serveurs de noms retournent un enregistrement de type "SOA".
+Delegation 	info 	Tous les serveurs de noms de la zone font partie de la liste des serveurs de noms retournés par les serveurs de noms de la zone parente ainsi que par les serveurs de noms de la zone elle-même.
+Nameserver 	info 	Le serveur de noms ns1.l2-6.ephec-ti.be/54.36.180.56 n'est pas un récurseur.
+Nameserver 	info 	Les serveurs de noms suivants supportent EDNS0 : ns1.l2-6.ephec-ti.be/54.36.180.56.
+Nameserver 	info 	Il n'est pas possible de réaliser un transfert de zone depuis le serveur de noms ns1.l2-6.ephec-ti.be/54.36.180.56.
+Nameserver 	info 	Tous les serveurs de noms répondent avec la même adresse IP que celle utilisée lors de leur requêtage.
+Nameserver 	info 	Il a été possible de trouver au moins une adresse IP pour tous les serveurs de noms.
+Nameserver 	info 	Aucun des serveurs de noms suivants ne répond à la requête de type "NS" sur la racine '.' (upward referral) : ns1.l2-6.ephec-ti.be.
+Nameserver 	info 	Le serveur de noms ns1.l2-6.ephec-ti.be/54.36.180.56 conserve la casse des noms requêtés dans les réponses 'wWw.L2-6.ePHEC-ti.bE'.
+Nameserver 	info 	Lors d'une requête de type SOA pour la ressource "www.l2-6.ephec-ti.be" avec des casses différentes,  tous les serveurs retournent les mêmes résultats.
+Nameserver 	notice 	Les serveurs de noms suivants répondent aux requêtes de version logicielle "version.bind" avec la chaîne "not currently available". Information retournée par les serveurs de noms : "ns1.l2-6.ephec-ti.be/54.36.180.56"
+Syntax 	info 	Le nom de domaine 'l2-6.ephec-ti.be' ne contient aucun caractère interdit.
+Syntax 	info 	Aucune des extrémités des labels du nom de domain 'l2-6.ephec-ti.be' n'est un tiret '-'.
+Syntax 	info 	Le nom de domaine 'l2-6.ephec-ti.be' n'a aucun label contenant un double tiret ('--') en positions 3 et 4 (avec un préfixe différent de 'xn--').
+Syntax 	info 	La syntaxe du nom du serveur de noms (ns1.l2-6.ephec-ti.be) est valide.
+Syntax 	info 	Il n'y a aucun caractère '@' dans le champ RNAME (admin.l2-6.ephec-ti.be.) du SOA.
+Syntax 	notice 	L'adresse mail du SOA du nom de domaine (l2-6.ephec-ti.be) ne peut pas être résolue en un serveur de messagerie avec une adresse IP.
+Syntax 	info 	La syntaxe du nom du serveur maître défini dans le SOA,  'mname' (ns1.l2-6.ephec-ti.be) est valide.
+Zone 	notice 	Dans le SOA,  la valeur du champ 'refresh' (3600) est plus petite que la valeur recommandée (14400).
+Zone 	info 	Dans le SOA,  la valeur du champ 'refresh' (3600) est plus grande que la valeur du champ 'retry' (1800).
+Zone 	notice 	Dans le SOA,  la valeur du champ 'retry' (1800) est plus petite que la valeur recommandée (3600).
+Zone 	info 	Dans le SOA,  la valeur du champ 'expire' (604800) est plus grande que la valeur minimale recommandée (604800) et pas plus petite que la valeur du champ 'refresh' (3600).
+Zone 	info 	Dans le SOA,  la valeur du champ 'minimum' (86400) est comprise dans l'interval de valeurs recommandées (300/86400).
+Zone 	info 	Le serveur maître défini dans le SOA,  'mname' (ns1.l2-6.ephec-ti.be),  fait référence à un serveur de noms qui n'est pas un alias (CNAME).
+Zone 	info 	Le serveur maître défini dans le SOA,  'mname' (ns1.l2-6.ephec-ti.be),  fait référence à un serveur de noms qui n'est pas un alias (CNAME).
+Zone 	notice 	La zone n’a pas de cible de messagerie associée (pas de MX).
+Zone 	info 	L'ensemble des serveurs de la zone ont retourné un enregistrement de type "SOA" unique.
+Zone 	notice 	Aucune politique SPF trouvée pour l2-6.ephec-ti.be.
