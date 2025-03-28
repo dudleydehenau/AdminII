@@ -1,2 +1,0 @@
-l2-6    IN    NS    ns1.l2-6.ephec-ti.be. 
-ns1.l2-6 IN    A     54.36.180.56
